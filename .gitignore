@@ -3,6 +3,21 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+xilinx-artix/vivado*
+xilinx-artix/.Xil
+xilinx-artix/arduboy-rtl-emulator*/
+xilinx-artix/arduboy-rtl-emulator.cache/compile_simlib/
+xilinx-artix/arduboy-rtl-emulator.cache/compile_simlib/*/
+xilinx-artix/arduboy-rtl-emulator.cache/ip/2019.1.3/
+xilinx-artix/arduboy-rtl-emulator.cache/wt/
+xilinx-artix/arduboy-rtl-emulator.runs/.jobs/
+xilinx-artix/arduboy-rtl-emulator.runs/impl_1/
+xilinx-artix/arduboy-rtl-emulator.runs/synth_1/
+xilinx-artix/arduboy-rtl-emulator.hw/
+xilinx-artix/arduboy-rtl-emulator.ip_user_files/
+xilinx-artix/arduboy-rtl-emulator.sim/
+
+
 # User-specific files
 *.rsuser
 *.suo
