@@ -20,7 +20,7 @@
 
 `timescale 1ns / 1ps
 
-`define FLASH_ROM_FILE_NAME		"Curse.V1.0.mem"
+`define FLASH_ROM_FILE_NAME		"Arcade_Kong_Kong.ino.mem"
 //`define SIMULATE
 
 module top(
@@ -52,8 +52,10 @@ module top(
 	output [2:0]hdmi_tx_p
 	);
 
+
+reg rst_reg;
 wire pll_locked;
-wire sys_rst = ~rst | ~pll_locked;
+wire sys_rst = ~rst_reg | ~pll_locked;
 wire sys_clk;// = clk;
 wire pll_clk;// = clk;
 wire hdmi_clk;// = clk;
@@ -108,6 +110,15 @@ PLLE2_BASE_inst (
 	// Feedback Clocks: 1-bit (each) input: Clock feedback ports
 	.CLKFBIN(clkfb)				// 1-bit input: Feedback clock
 );
+
+always @ (posedge sys_clk) 
+begin
+	if(~rst)
+		rst_reg <= 1'b1;
+	else
+		rst_reg <= rst;
+end
+
 
 wire pb_dummy_0 = 0;
 wire pb_dummy_3 = 0;
@@ -263,7 +274,20 @@ wire ld1;
 wire ld2;
 
 atmega32u4 # (
-	.ROM_PATH(`FLASH_ROM_FILE_NAME)
+	.ROM_PATH(`FLASH_ROM_FILE_NAME),
+	.USE_PIO_B("TRUE"),
+	.USE_PIO_C("TRUE"),
+	.USE_PIO_D("TRUE"),
+	.USE_PIO_E("TRUE"),
+	.USE_PIO_F("TRUE"),
+	.USE_PLL("TRUE"),
+	.USE_TIMER_0("TRUE"),
+	.USE_TIMER_1("TRUE"),
+	.USE_TIMER_3("TRUE"),
+	.USE_TIMER_4("TRUE"),
+	.USE_SPI_1("TRUE"),
+	.USE_UART_1("FALSE"),
+	.USE_EEPROM("TRUE")
 ) atmega32u4_inst (
 	.rst(sys_rst),
 	.clk(sys_clk),

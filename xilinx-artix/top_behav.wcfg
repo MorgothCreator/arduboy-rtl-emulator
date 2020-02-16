@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="433911901fs"></ZoomStartTime>
+      <ZoomEndTime time="1113217620fs"></ZoomEndTime>
+      <Cursor1Time time="795000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="208"></NameColumnWidth>
+      <ValueColumnWidth column_width="199"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/PC_x_2" type="array">
+      <obj_property name="ElementShortName">PC_x_2[14:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_x_2[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/pgm_data" type="array">
+      <obj_property name="ElementShortName">pgm_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pgm_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/pgm_data_int" type="array">
+      <obj_property name="ElementShortName">pgm_data_int[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pgm_data_int[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/pgm_data_registered" type="array">
+      <obj_property name="ElementShortName">pgm_data_registered[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pgm_data_registered[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/skip_next_clock" type="logic">
+      <obj_property name="ElementShortName">skip_next_clock</obj_property>
+      <obj_property name="ObjectShortName">skip_next_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/data_addr" type="array">
+      <obj_property name="ElementShortName">data_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/data_write" type="logic">
+      <obj_property name="ElementShortName">data_write</obj_property>
+      <obj_property name="ObjectShortName">data_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/data_read" type="logic">
+      <obj_property name="ElementShortName">data_read</obj_property>
+      <obj_property name="ObjectShortName">data_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/io_addr" type="array">
+      <obj_property name="ElementShortName">io_addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">io_addr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/io_out" type="array">
+      <obj_property name="ElementShortName">io_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">io_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/io_write" type="logic">
+      <obj_property name="ElementShortName">io_write</obj_property>
+      <obj_property name="ObjectShortName">io_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/io_in" type="array">
+      <obj_property name="ElementShortName">io_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">io_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/io_read" type="logic">
+      <obj_property name="ElementShortName">io_read</obj_property>
+      <obj_property name="ObjectShortName">io_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/int_sig" type="array">
+      <obj_property name="ElementShortName">int_sig[41:0]</obj_property>
+      <obj_property name="ObjectShortName">int_sig[41:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/int_rst" type="array">
+      <obj_property name="ElementShortName">int_rst[41:0]</obj_property>
+      <obj_property name="ObjectShortName">int_rst[41:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/rs1a" type="array">
+      <obj_property name="ElementShortName">rs1a[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1a[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/rs1" type="array">
+      <obj_property name="ElementShortName">rs1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/rs1m" type="logic">
+      <obj_property name="ElementShortName">rs1m</obj_property>
+      <obj_property name="ObjectShortName">rs1m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/rs2a" type="array">
+      <obj_property name="ElementShortName">rs2a[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2a[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/rs2" type="array">
+      <obj_property name="ElementShortName">rs2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/rs2m" type="logic">
+      <obj_property name="ElementShortName">rs2m</obj_property>
+      <obj_property name="ObjectShortName">rs2m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/rda" type="array">
+      <obj_property name="ElementShortName">rda[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rda[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/rd" type="array">
+      <obj_property name="ElementShortName">rd[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/rdw" type="logic">
+      <obj_property name="ElementShortName">rdw</obj_property>
+      <obj_property name="ObjectShortName">rdw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/rdm" type="logic">
+      <obj_property name="ElementShortName">rdm</obj_property>
+      <obj_property name="ObjectShortName">rdm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/\genblk1.REGL " type="array">
+      <obj_property name="ElementShortName">\genblk1.REGL [0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">\genblk1.REGL [0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/xmega_regs_inst/\genblk1.REGH " type="array">
+      <obj_property name="ElementShortName">\genblk1.REGH [0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">\genblk1.REGH [0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/atmega32u4_inst/SREG" type="array">
+      <obj_property name="ElementShortName">SREG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SREG[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/\genblk13.eep /eep" type="array">
+      <obj_property name="ElementShortName">eep[1023:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">eep[1023:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/\genblk6.spi /scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top_inst/atmega32u4_inst/\genblk6.spi /mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+</wave_config>
