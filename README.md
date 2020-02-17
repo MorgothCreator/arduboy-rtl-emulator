@@ -1,6 +1,6 @@
 # arduboy-rtl-emulator
 
- VHDL design to emulate the ArduBoy game console.
+ HDL design to emulate the ArduBoy game console.
 
  This design is intended to create a FPGA platform to run ArduBoy compatible games.
 
@@ -11,6 +11,19 @@
  ```
 
  The core files can be cloned from https://github.com/MorgothCreator/atmega-xmega-soft-core
+
+  # V00.02.16:
+
+ ```
+ Fix SBIW instruction due to wrong description in oficial documentation.
+ Add possibility to connect UART interface.
+ Optimize core code and make it more readable.
+ Add some more example games that officially run on arduboy console.
+ 
+ TO DO:
+ 
+ Fix situations where on random times at core reset the TIM3 prescaller is setup at wrong value ( at /64 instead of /8 core clock ).
+ ```
 
   # V00.02.10:
 
@@ -27,7 +40,7 @@
 
  [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CZM6JXDVMFXHS&source=url)
 
- Or you can send some crypto:
+ Or you can tip some crypto:
 
  BTC: 3CFRp6day6ZRgpXw8n1QGvXfmk5gf8XK3e
 
